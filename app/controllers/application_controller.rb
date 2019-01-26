@@ -40,4 +40,8 @@ class ApplicationController < Sinatra::Base
     @article.update(params[:article])
     edirect to :"/articles/#{Article.id}"
   end
+
+  delete '/articles/:id' do 
+
+  end 
 end
