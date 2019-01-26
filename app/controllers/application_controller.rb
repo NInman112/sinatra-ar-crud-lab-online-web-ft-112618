@@ -42,6 +42,7 @@ class ApplicationController < Sinatra::Base
   end
 
   delete '/articles/:id' do
-    Article.all.destory(params[:id])
+    @article = Article.find(params[:id])
+    @article.destory
   end
 end
