@@ -1,7 +1,5 @@
 <%# Shows articles  %>
 <% @articles.each do |article| %>
-<%= binding.pry %>
-  <h2><%= article.title %></h2>
-  <h4><%= article.content %></h4>
-  <br>
+  <h3><%= article.title %></h3>
+  <h3><%= article.content %></h3><br>
 <% end %>

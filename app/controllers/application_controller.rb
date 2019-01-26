@@ -24,4 +24,8 @@ class ApplicationController < Sinatra::Base
     @articles = Article.all
     erb :index
   end
+
+  get '/articles/:id/edit' do 
+
+  end 
 end
