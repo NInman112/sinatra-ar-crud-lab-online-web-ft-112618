@@ -45,5 +45,5 @@ class ApplicationController < Sinatra::Base
     @article = Article.find(params[:id])
     @article.destroy(params[:id])
   end
-  
+
 end
