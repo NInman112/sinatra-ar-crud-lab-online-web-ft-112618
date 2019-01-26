@@ -15,5 +15,7 @@ class ApplicationController < Sinatra::Base
     erb :new
   end
 
-  post '/articles'
+  post '/articles' do
+
+  end 
 end
