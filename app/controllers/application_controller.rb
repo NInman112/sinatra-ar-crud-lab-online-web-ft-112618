@@ -41,7 +41,7 @@ class ApplicationController < Sinatra::Base
     edirect to :"/articles/#{Article.id}"
   end
 
-  delete '/articles/:id' do 
+  delete '/articles/:id' do
 
   end 
 end
